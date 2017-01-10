@@ -1,0 +1,11 @@
+body {
+  background: gray;
+}
+
+.nav{
+    text-align: relative;
+    list-style-type: none;
+}
+.nav a:hover {
+    color:blue;
+}
