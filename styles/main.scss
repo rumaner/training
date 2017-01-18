@@ -5,11 +5,11 @@ body {
   margin: 0px;
   padding: 0px;
 }
-  h1 {
-    text-align: center;
-    color: darkblue;
-    font-size: 44px;
-  }
+h1 {
+  text-align: center;
+  color: darkblue;
+  font-size: 44px;
+}
 h2 {
   text-decoration: underline;
   text-align: center;
@@ -27,6 +27,12 @@ h2 {
     line-height: 54px;
     display: inline-block;
   }
+  a {
+   text-decoration: none;
+   color: darkblue;
+   display: block;
+   transition: .5s background-color;
+  }
   a:hover {
    background-color: orange;
    color: white;
@@ -43,14 +49,7 @@ h2 {
 .opening {
   padding-left: 16px;
 }
-.nav {
-  a {
-    text-decoration: none;
-   color: darkblue;
-   display: block;
-   transition: .5s background-color;
-  }
-}
+
 .filler1 {
   border-style: solid;
   border-width: thin;
