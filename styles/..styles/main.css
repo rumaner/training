@@ -2,11 +2,10 @@ body {
   background-color: #ffffff;
   margin: 0px;
   padding: 0px; }
-
-h1 {
-  text-align: center;
-  color: darkblue;
-  font-size: 44px; }
+  body h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 44px; }
 
 h2 {
   text-decoration: underline;
@@ -23,13 +22,14 @@ h2 {
     font-size: 1.2em;
     line-height: 54px;
     display: inline-block; }
-  .nav a:hover {
-    background-color: orange;
-    color: white; }
-  .nav a.active {
-    background-color: black;
-    color: #444;
-    cursor: default; }
+
+.nav a:hover {
+  background-color: orange;
+  color: white; }
+.nav a.active {
+  background-color: black;
+  color: #444;
+  cursor: default; }
 
 .key {
   padding-left: 16px; }
@@ -71,6 +71,6 @@ h2 {
 .titles {
   height: 200px;
   width: 200px;
-  padding: 200px; }
+  padding: 20px; }
 
 /*# sourceMappingURL=main.css.map */
